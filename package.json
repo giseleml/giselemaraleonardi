@@ -1,0 +1,23 @@
+{
+  "name": "giselemaraleonardi",
+  "version": "1.0.0",
+  "description": "My Personal Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giseleml/giselemaraleonardi.git"
+  },
+  "keywords": [
+    "personal",
+    "portfolio"
+  ],
+  "author": "Gisele Mara Leonardi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/giseleml/giselemaraleonardi/issues"
+  },
+  "homepage": "https://github.com/giseleml/giselemaraleonardi#readme"
+}
