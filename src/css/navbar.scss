@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Handlee');
+
+.navbar {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    background-color:rgba(235, 235, 235, 0.3);
+
+    ul, li, a {
+        grid-column: 1 / 4;
+        display: inline-flex;
+        flex-flow: row wrap;
+        align-items: flex-start;
+        justify-content: space-around;
+        list-style-type: none;
+        text-decoration: none;
+        font-family: 'Handlee', cursive;
+        font-weight: bold;
+        font-size: 1.3rem;
+        color: rgb(77, 61, 61);
+    }
+
+    a:hover {
+        color: antiquewhite;
+        text-shadow: 3px 1px 5px black;
+    }
+}
+
