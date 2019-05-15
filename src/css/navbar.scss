@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Handlee');
+@import "./variables.scss";
 
 .navbar {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
-    background-color:rgba(235, 235, 235, 0.3);
+    background-color:$transparent-bg;
+    margin-top: -1rem;
 
     ul, li, a {
         grid-column: 1 / 4;
@@ -13,7 +15,7 @@
         justify-content: space-around;
         list-style-type: none;
         text-decoration: none;
-        font-family: 'Handlee', cursive;
+        font-family: $handwritten-font;
         font-weight: bold;
         font-size: 1.3rem;
         color: rgb(77, 61, 61);

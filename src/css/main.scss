@@ -1,4 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+@import "./variables.scss";
+
 body {
     background: linear-gradient(to top, #ff9966, #f8787a); 
     background-attachment: fixed;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1.1rem;
+}
+
+.subtitulo-pagina {
+    text-align: center;
+    text-shadow: 2px 2px 5px pink;
+    font-size: 1.5rem;
+}
+
+.titulo-pagina {
+    text-align: center;
+    font-family: $handwritten-font;
+}
+
+// habilidades.js
+#habilidadesArr, #tecnologiasArr, #idiomasArr {
+    margin-left: 10%;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(2, 1fr);
+    list-style-type: square;
+}
+
+// contatos.js 
+#contatos {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+}
+
+// index.js 
+.pagina-inicial {
+    margin-left: 10%;
+    display: flex;
+
+    img {
+        width: 25rem;
+        height: 25rem;
+        margin-right: 1rem;
+    }
 }

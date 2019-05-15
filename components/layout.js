@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import NavBar from '../components/navbar'
+
 import '../src/css/main.scss'
 
 const Layout = (props) => (

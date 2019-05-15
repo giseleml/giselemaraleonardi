@@ -1,15 +1,10 @@
 @import "./variables.scss";
 
-h2 {
-    text-align: center;
-}
-
 .timeline {
     display: flex;
     flex-direction: column;
     margin-left: 10%;
     z-index: 1;
-
     
     // Centered line that separates odds and even ids
     &::after {
@@ -19,10 +14,9 @@ h2 {
         position: absolute;
         left: 50%;
         width: 0.3rem;
-        height: 60rem;
+        height: 75rem;
     }
 }
-
 
 .timeline-item {
     display: flex;
@@ -39,6 +33,7 @@ h2 {
     width: 25rem;
     max-width: 60%;
 
+    cursor: pointer;
     // Selects all odd numbered ids from the timeline-item class
     &:nth-child(odd) {
         align-self: flex-end;

@@ -1,4 +1,6 @@
 import Layout from '../components/layout'
+
+import '../src/css/main.scss'
 import '../src/css/projetos.scss'
 
 const codepenData = [
@@ -45,7 +47,7 @@ const CodepenProjects = () => (
       {
          codepenData.map((item, id) => {
             return <div className="codepen-list-projects" key={id}>
-                     <h2 key={id}>{item.titulo}</h2>
+                     <h3 key={id} className="subtitulo-pagina">{item.titulo}</h3>
                      <img src={item.img}></img>
                      <p><a href={item.url} target="_blank">Acesse aqui</a></p>
                   </div>
@@ -56,7 +58,7 @@ const CodepenProjects = () => (
 
 const Projetos = () => (
         <Layout>
-           <h1>Meus Projetos</h1>
+           <h1 className="titulo-pagina">Meus Projetos</h1>
             <CodepenProjects />
         </Layout>
   )

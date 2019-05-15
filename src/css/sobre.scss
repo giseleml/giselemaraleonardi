@@ -1,0 +1,31 @@
+@import "./variables.scss";
+
+.sobre-mim {
+    display: grid;
+    grid-template: repeat(2, 1fr);
+    grid-gap: 2rem;
+    margin-left: 10%;
+
+    & img {
+        max-width: 35rem;
+        max-height: 35rem;
+        grid-column: 1 / 2;
+    }
+
+    & p {
+        font-size: 1.2rem;
+        max-width: 70%;
+        grid-column: 2 / 2;
+        text-align: left;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .sobre-mim {
+        display: flex;
+        flex-direction: column;
+    }
+    .sobre-mim img {
+        max-width: 20rem;
+    }
+}

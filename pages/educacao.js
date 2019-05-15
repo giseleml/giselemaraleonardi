@@ -1,4 +1,6 @@
 import Layout from '../components/layout'
+
+import '../src/css/main.scss'
 import '../src/css/timeline.scss'
 
 const educacaoData = [
@@ -67,8 +69,8 @@ const Timeline = () => (
 
 const Educacao = () => (
    <Layout>
-      <h1>Meus estudos</h1>
-      <h2>2016</h2>
+      <h1 className="titulo-pagina">Meus estudos</h1>
+      <h3 className="subtitulo-pagina">2016</h3>
       <Timeline />
    </Layout>
 )
