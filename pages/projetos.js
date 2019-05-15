@@ -1,5 +1,5 @@
 import Layout from '../components/layout'
-import '../src/css/projects.scss'
+import '../src/css/projetos.scss'
 
 const codepenData = [
    {
@@ -44,7 +44,7 @@ const CodepenProjects = () => (
    <div className="codepen-list">
       {
          codepenData.map((item, id) => {
-            return <div className="codepen-list-projects">
+            return <div className="codepen-list-projects" key={id}>
                      <h2 key={id}>{item.titulo}</h2>
                      <img src={item.img}></img>
                      <p><a href={item.url} target="_blank">Acesse aqui</a></p>

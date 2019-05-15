@@ -52,7 +52,7 @@ const Timeline = () => (
    <div className="timeline">
       {
          educacaoData.map((data, id) => {
-         return <ul className="timeline-item">
+         return <ul className="timeline-item" key={id}>
                   <li id={id}>{data.instituto}</li>
                   <li id={id}><strong>{data.ano}</strong></li>
                   <li id={id}>{data.formacao}</li>
@@ -68,6 +68,7 @@ const Timeline = () => (
 const Educacao = () => (
    <Layout>
       <h1>Meus estudos</h1>
+      <h2>2016</h2>
       <Timeline />
    </Layout>
 )
