@@ -1,0 +1,94 @@
+.timeline {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%;
+  z-index: 1; }
+  .timeline::after {
+    content: '';
+    z-index: -1;
+    background-color: wheat;
+    position: absolute;
+    left: 50%;
+    width: 0.3rem;
+    height: 75rem; }
+
+.timeline-item {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-color: #faf9ec;
+  box-shadow: 4px 4px 10px grey;
+  border-radius: 8px;
+  list-style-type: none;
+  text-align: right;
+  padding: 1rem;
+  width: 25rem;
+  max-width: 60%;
+  cursor: pointer; }
+  .timeline-item:nth-child(odd) {
+    align-self: flex-end;
+    text-align: left;
+    margin-right: 10%;
+    padding-left: 2rem;
+    padding-right: 0; }
+  .timeline-item:nth-child(odd) .timeline-item::after {
+    right: auto;
+    left: -7.5px; }
+
+@media only screen and (max-width: 1023px) {
+  .timeline-item {
+    max-width: 100%; } }
+
+@media only screen and (max-width: 800px) {
+  .timeline-item,
+  .timeline-item:nth-child(odd) {
+    padding: 15px 7px;
+    text-align: center;
+    align-items: center; }
+    .timeline-item a,
+    .timeline-item:nth-child(odd) a {
+      text-decoration: underline; } }
+
+.codepen-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+  text-align: center; }
+
+.codepen-list-projects img {
+  width: 20rem;
+  box-shadow: 4px 4px 10px grey; }
+
+@media only screen and (max-width: 1023px) {
+  .codepen-list img {
+    max-width: 100%; } }
+
+@media only screen and (max-width: 800px) {
+  .codepen-list {
+    display: flex;
+    flex-direction: column; }
+  .codepen-list-projects img {
+    max-width: 20rem; } }
+
+.sobre-mim {
+  display: grid;
+  grid-template: repeat(2, 1fr);
+  grid-gap: 2rem;
+  margin-left: 10%; }
+  .sobre-mim img {
+    max-width: 35rem;
+    max-height: 35rem;
+    grid-column: 1 / 2; }
+  .sobre-mim p {
+    font-size: 1.1rem;
+    max-width: 70%;
+    grid-column: 2 / 2;
+    text-align: left; }
+
+@media only screen and (max-width: 800px) {
+  .sobre-mim {
+    display: flex;
+    flex-direction: column; }
+  .sobre-mim img {
+    max-width: 20rem; } }
+
