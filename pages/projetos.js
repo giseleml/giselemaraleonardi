@@ -1,7 +1,8 @@
 import Layout from '../components/layout'
-
 import '../src/css/main.scss'
 import '../src/css/projetos.scss'
+
+
 
 const codepenData = [
    {
