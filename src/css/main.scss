@@ -1,7 +1,6 @@
 @import "./variables.scss";
 
 body {
-    /*background: linear-gradient(to top, #ff9966, #f8787a); */
     background: url('https://image.freepik.com/vetores-gratis/fundo-de-aguarela-grunge-usando-cores-pastel_1048-6530.jpg ');
     background-size: cover;
     font-family: 'Segoe UI', Verdana, sans-serif;
@@ -22,9 +21,9 @@ body {
 
 // habilidades.js
 #habilidadesArr, #tecnologiasArr, #idiomasArr {
-    margin-left: 10%;
+    margin-left: 12%;
     display: grid;
-    grid-gap: 1rem;
+    grid-column-gap: 1.5rem;
     grid-template-columns: repeat(2, 1fr);
     list-style-type: square;
 }
@@ -34,16 +33,4 @@ body {
     display: flex;
     flex-direction: column;
     list-style-type: none;
-}
-
-// index.js 
-.pagina-inicial {
-    margin-left: 10%;
-    display: flex;
-
-    img {
-        width: 25rem;
-        height: 25rem;
-        margin-right: 1rem;
-    }
 }

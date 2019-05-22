@@ -4,7 +4,7 @@ import '../src/css/index.scss'
 
 const Sobre = () => (
         <Layout>
-           <h1 className="titulo-pagina">Gisele Mara Leonardi | Software Developer</h1>
+           <h1 className="titulo-pagina" style={{color: "rgb(77, 61, 61)"}}>Gisele Mara Leonardi | Software Developer</h1>
            <div className="sobre-mim">
             <img src="http://sailormoonnews.com/wp-content/uploads/2014/07/sailor_moon_crystal_02_luna_and_usagi_at_the_computer.jpg"/>
             <p>
