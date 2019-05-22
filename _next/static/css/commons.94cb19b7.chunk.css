@@ -1,0 +1,61 @@
+@import url(https://fonts.googleapis.com/css?family=Handlee);
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans);
+.navbar {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  background-color: rgba(235, 235, 235, 0.3);
+  margin-top: -1rem; }
+  .navbar ul, .navbar li, .navbar a {
+    grid-column: 1 / 4;
+    display: inline-flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    justify-content: space-around;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: "Handlee", cursive;
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: #4d3d3d; }
+  .navbar a:hover {
+    color: wheat;
+    text-shadow: 3px 1px 4px black;
+    font-size: 1.4rem; }
+
+body {
+  /*background: linear-gradient(to top, #ff9966, #f8787a); */
+  background: url("https://image.freepik.com/vetores-gratis/fundo-de-aguarela-grunge-usando-cores-pastel_1048-6530.jpg");
+  background-size: 100% 100%;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 1.1rem; }
+
+.titulo-pagina {
+  text-align: center;
+  font-family: "Handlee", cursive; }
+
+.subtitulo-pagina {
+  text-align: center;
+  text-shadow: 2px 2px 5px wheat;
+  font-family: "Handlee", cursive;
+  font-size: 1.5rem; }
+
+#habilidadesArr, #tecnologiasArr, #idiomasArr {
+  margin-left: 10%;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(2, 1fr);
+  list-style-type: square; }
+
+#contatos {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none; }
+
+.pagina-inicial {
+  margin-left: 10%;
+  display: flex; }
+  .pagina-inicial img {
+    width: 25rem;
+    height: 25rem;
+    margin-right: 1rem; }
+
