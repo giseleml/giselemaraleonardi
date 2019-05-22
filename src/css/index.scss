@@ -1,0 +1,37 @@
+@import "./variables.scss";
+
+.sobre-mim {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    & img {
+        max-width: 35rem;
+        max-height: 35rem;
+        float: left;
+        box-shadow: 2px 2px 10px grey;
+        margin-top: 2rem;
+    }
+
+    & p {
+        font-size: 1.1rem;
+        line-height: 1.7rem;
+        width: 40%;
+        text-align: left;
+        float: right;
+        margin-left: 2rem;
+        margin-top: 2rem;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .sobre-mim {
+        img {
+            max-width: 25rem;
+        }
+        p {
+            width: 100%;
+        }
+    }
+}

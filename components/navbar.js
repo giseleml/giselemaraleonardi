@@ -4,14 +4,10 @@ import '../src/css/navbar.scss'
 const NavBar = () => (
     <nav className="navbar">
     <ul>
-    <li>
-        <Link href="/"><a className="nav-link">Home
-            <img src="https://2.bp.blogspot.com/-PqHmvHcokNs/XNxx6KRxF0I/AAAAAAAAAsE/B-o2jFAVzV8ZDZjOqaiA9eVbghJnVLMZQCLcBGAs/s1600/homepage-icon.png" alt="Ilustração de uma casa para página inicial"></img></a>
-        </Link>
-           
+    <li>   
         </li>
         <li>
-            <Link href="/sobre"><a className="nav-link">Sobre mim
+            <Link href="/"><a className="nav-link">Sobre mim
                 <img src="https://2.bp.blogspot.com/-MRezei8QZfI/XNxx4YrSk9I/AAAAAAAAArs/JJAKUFBhWqQiKk7AFGPBCZEaCP0B6FHYACLcBGAs/s1600/aboutme-icon.png" alt="Ilustração de uma mulher de óculos escuros"></img></a>
             </Link>
             

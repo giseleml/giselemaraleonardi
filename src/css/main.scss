@@ -1,23 +1,22 @@
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
 @import "./variables.scss";
 
 body {
     /*background: linear-gradient(to top, #ff9966, #f8787a); */
     background: url('https://image.freepik.com/vetores-gratis/fundo-de-aguarela-grunge-usando-cores-pastel_1048-6530.jpg ');
-    background-size: 100% 100%;
-    font-family: 'Noto Sans', sans-serif;
+    background-size: cover;
+    font-family: 'Segoe UI', Verdana, sans-serif;
     font-size: 1.1rem;
 }
 
 .titulo-pagina {
     text-align: center;
-    font-family: $handwritten-font;
+    font-family: $sub-font;
 }
 
 .subtitulo-pagina {
     text-align: center;
     text-shadow: 2px 2px 5px wheat;
-    font-family: $handwritten-font;
+    font-family: $sub-font;
     font-size: 1.5rem;
 }
 
