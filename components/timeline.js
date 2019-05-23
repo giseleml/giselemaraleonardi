@@ -7,7 +7,7 @@ const Timeline = (props) => (
                    <li id={id}><strong>{data.ano}</strong></li>
                    <li id={id}>{data.formacao}</li>
                    {
-                      data.certificado ? <a href={data.certificado} target="_blank" id={id}>Certificado</a> : ""
+                      data.certificado ? <a href={data.certificado} target="_blank" rel="noopener" id={id}>Certificado</a> : ""
                    }
                 </ul>
           })
