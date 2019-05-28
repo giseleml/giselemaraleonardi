@@ -30,25 +30,14 @@
     }
 }
 
-
+// Hamburguer button
 @media screen and (max-width: 700px) {
     .navbar {
         ul {
             display: none;
         }
-
-        label {
-            display: inline-block;
-            color: black;
-            background: transparent;
-            font-family: $sub-font;
-            font-style: normal;
-            font-size: 2rem;
-            padding: 10px;
-            cursor: pointer;
-        }
-
-         li {
+        
+        li {
             border: 0.5px solid rgb(140, 140, 140);
             box-shadow: 2px 2px 5px black;
             background-color:  #ffe6cc;
@@ -59,6 +48,38 @@
             padding: 0.5rem 0.5rem;
         }
 
+        label {
+            display: inline-block;
+            background-color: transparent;
+            pointer-events: none;
+            margin-left: 0.5rem;
+        }
+
+        // The hamburger button itself
+        label span {
+            display: inline-block;
+            background-color: #333;
+            border-radius: 3px;
+            width: 35px;
+            height: 5px;
+            pointer-events: all;
+            cursor: pointer;
+            transition: 0.4s;
+            
+            &:nth-child(2) {
+                display: flex;
+                align-self: center;
+                margin: 3px 0;
+            }
+
+            &:nth-child(3) {
+                display: flex;
+                align-self: flex-end;
+                margin: 7px 0;
+            }
+        }
+
+        // Shows the menu
         input:checked ~ ul {
             display: flex;
             flex-direction: row;
@@ -68,5 +89,20 @@
             max-height: auto;
         }   
 
+        // Turns the hamburger into 'X' when clicked
+        input:checked ~ label span{
+            &:first-child {
+                background-color: transparent;
+            }
+
+            &:nth-child(2) {
+                transform: translateY(0) rotate(-45deg);
+            }
+
+            &:nth-child(3) {
+                transform: translateY(0) rotate(45deg);
+                margin: -8px 0;
+            }
+        }
     }
 }

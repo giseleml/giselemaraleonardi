@@ -1,29 +1,17 @@
 import Link from 'next/link'
 import '../src/css/navbar.scss'
 
-class NavBar extends React.Component {
-    constructor(props){
-        super(props)
-        this.state = { checked: true }
-        this.handleChange = this.handleChange.bind(this);
-    }
-
-    handleChange() {
-        this.setState({
-            checked: !this.state.checked
-        })
-    }
-
-    render() {
-        return (
+const NavBar = () => (
             <nav className="navbar">
-                <label htmlFor="hamb-btn" onClick={this.handleChange}>
-                {
-                    this.state.checked ? String.fromCharCode('9776') : String.fromCharCode('10006')
-                }
-               
-                </label>
                 <input type="checkbox" id="hamb-btn"/>
+                <label for="hamb-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+                <label for="hamb-btn"></label>
+
+
                 <ul>
                     <li>   
                         <Link href="/"><a className="nav-link">Sobre mim
@@ -60,8 +48,5 @@ class NavBar extends React.Component {
                 </ul>
             </nav>
         )
-    }
-}
-
 
 export default NavBar
