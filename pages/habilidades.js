@@ -1,8 +1,6 @@
 import Layout from '../components/layout'
 import '../src/css/main.scss'
 
-
-
 const habilidades = ["JavaScript", "CSS", "HTML5", "SQL", "Design Responsivo", "Design de Cor", "Solução de Problemas", "Trabalho em Equipe"]
 
 const tecnologias = ["ReactJS", "JQuery", "Bootstrap", "Sass", "Less", "Styled Components", "Materialize", "PostgreSQL", "MongoDB", 

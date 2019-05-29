@@ -6,37 +6,45 @@ const codepenData = [
    {
       titulo: "React Accordion",
       img: "https://screenshot.codepen.io/2565984.NoLMeq.small.cb7a0283-65f6-44ed-b94e-c24287efbc9e.png",
-      url: "https://codepen.io/giseleml/pen/NoLMeq"
+      url: "https://codepen.io/giseleml/pen/NoLMeq",
+      alt: "Screenshot do projeto React Accordion"
    },
    {
       titulo: "React Calculadora",
       img: "https://screenshot.codepen.io/2565984.vbrJZw.small.fa7206bf-3729-4784-8bca-8ce204ad0d1b.png",
-      url: "https://codepen.io/giseleml/pen/vbrJZw"
+      url: "https://codepen.io/giseleml/pen/vbrJZw",
+      alt: "Screnshot do projeto Calculadora React"
    },
    {
       titulo:"Edron Parallex Effect",
       img: "https://screenshot.codepen.io/2565984.BMOerL.small.6ed0b160-3411-414f-be51-46be44628437.png",
-      url: "https://codepen.io/giseleml/pen/BMOerL"
+      url: "https://codepen.io/giseleml/pen/BMOerL",
+      alt: "Screenshot do projeto Edron Parallex Effect"
    },
    {
       titulo: "Image Slider",
       img: "https://screenshot.codepen.io/2565984.gEvqvb.small.3fede1c1-b0fe-47a5-9906-2eb4dd19a003.png",
-      url: "https://codepen.io/giseleml/pen/gEvqvb"
+      url: "https://codepen.io/giseleml/pen/gEvqvb",
+      alt: "Screenshot do projeto Image Slider"
    },
    {
-   titulo: "To-Do List",
-   img: "https://screenshot.codepen.io/2565984.xMJmRP.small.94ff405e-ec7b-4dd1-8e5e-b9765974518f.png",
-   url: "https://codepen.io/giseleml/pen/xMJmRP"
+      titulo: "To-Do List",
+      img: "https://screenshot.codepen.io/2565984.xMJmRP.small.94ff405e-ec7b-4dd1-8e5e-b9765974518f.png",
+      url: "https://codepen.io/giseleml/pen/xMJmRP",
+      alt: "Screenshot do projeto To-Do List"
    },
    {
       titulo: "Random Quote Generator",
       img: "https://screenshot.codepen.io/2565984.daVxdV.small.cb8b1af7-ff68-459e-9fe9-09120cc2b19b.png",
-      url: "https://codepen.io/giseleml/pen/daVxdV"
+      url: "https://codepen.io/giseleml/pen/daVxdV",
+      alt: "Screenshot do projeto Random Quote Generator"
+      
    },
    {
       titulo: "CSS Hello Kitty",
       img: "https://screenshot.codepen.io/2565984.pBpKyq.small.2ec84f7d-4282-4cb5-9fb3-240d39acb64d.png",
-      url: "https://codepen.io/giseleml/pen/pBpKyq"
+      url: "https://codepen.io/giseleml/pen/pBpKyq",
+      alt: "Screenshot do projeto CSS Hello Kitty"
    }
 
 ]
@@ -47,7 +55,7 @@ const CodepenProjects = () => (
          codepenData.map((item, id) => {
             return <div className="codepen-list-projects" key={id}>
                      <h3 key={id} className="subtitulo-pagina">{item.titulo}</h3>
-                     <img src={item.img}></img>
+                     <img src={item.img} alt={item.alt}></img>
                      <p><a href={item.url} target="_blank" rel="noopener">Acesse aqui</a></p>
                   </div>
          })

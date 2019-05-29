@@ -4,7 +4,6 @@ import '../src/css/main.scss'
 import '../src/css/index.scss'
 import sailorMoon from '../src/img/sailormoon-img.jpg'
 
-
 const Sobre = () => (
         <Layout>
            <h1 className="titulo-pagina" style={{color: "rgb(77, 61, 61)"}}>Gisele Mara Leonardi | Software Developer</h1>
