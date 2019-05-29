@@ -5,10 +5,10 @@ import '../src/css/index.scss'
 import sailorMoon from '../src/img/sailormoon-img.jpg'
 
 const Sobre = () => (
-        <Layout>
+        <Layout content="Está página contém um pouco da minha ambição à profissão de desenvolvedora de software."> 
            <h1 className="titulo-pagina" style={{color: "rgb(77, 61, 61)"}}>Gisele Mara Leonardi | Software Developer</h1>
            <div className="sobre-mim">
-            <img src={sailorMoon}/>
+            <img src={sailorMoon} alt="Imagem da Sailon Moon no computador"/>
             <p>
                Comecei na área de programação estudando por conta própria com os inúmeros recursos online, 
                sou muito curiosa para <strong>aprender novas tecnologias e ferramentas</strong>, e por isso estou sempre estudando 

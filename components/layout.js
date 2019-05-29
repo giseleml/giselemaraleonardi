@@ -10,6 +10,7 @@ const Layout = (props) => (
             <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
             <meta charset="UTF-8"></meta>
             <html lang="pt-br"></html>
+            <meta name="Description" content={props.content}></meta>
         </Head>
         <NavBar />
         {props.children}

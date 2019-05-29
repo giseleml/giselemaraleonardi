@@ -7,7 +7,7 @@ import iconGithub from '../src/img/github-icon.png'
 import iconLinkedin from '../src/img/linkedin-icon.png'
 
 const Contato = () => (
-        <Layout>
+        <Layout content="Está página contém meus contatos de email, github e linkedin.">
            <h1 className="titulo-pagina">Meus contatos</h1>
            <ul id="contatos">   
                <li><img src={iconGmail} alt="logo gmail"/>

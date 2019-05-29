@@ -52,7 +52,7 @@ const Educacao = () => {
    ]
    
       return (
-         <Layout>       
+         <Layout content="Está página contém meus cursos concluídos.">       
             <h1 className="titulo-pagina">Meus estudos</h1>
             <h3 className="subtitulo-pagina">2016</h3>
             <Timeline Data={eduData}/>
