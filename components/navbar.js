@@ -1,48 +1,53 @@
 import Link from 'next/link'
+
 import '../src/css/navbar.scss'
+
+import iconAbout from '../src/img/aboutme-icon.png'
+import iconSkills from '../src/img/skills-icon.png'
+import iconEdu from '../src/img/education-icon.png'
+import iconProj from '../src/img/projects-icon.png'
+import iconXP from '../src/img/experience-icon.png'
+import iconContact from '../src/img/contact-icon.png'
 
 const NavBar = () => (
             <nav className="navbar">
                 <input type="checkbox" id="hamb-btn"/>
-                <label for="hamb-btn">
+                <label htmlFor="hamb-btn">
                     <span></span>
                     <span></span>
                     <span></span>
                 </label>
-                <label for="hamb-btn"></label>
-
-
                 <ul>
                     <li>   
                         <Link href="/"><a className="nav-link">Sobre mim
-                            <img src="https://2.bp.blogspot.com/-MRezei8QZfI/XNxx4YrSk9I/AAAAAAAAArs/JJAKUFBhWqQiKk7AFGPBCZEaCP0B6FHYACLcBGAs/s1600/aboutme-icon.png" alt="Ilustração de uma mulher de óculos escuros"></img></a>
+                            <img src={iconAbout} alt="Ilustração de uma mulher de óculos escuros"></img></a>
                         </Link>
                     </li>
                     <li>
                         <Link href="/habilidades"><a className="nav-link">Habilidades
-                            <img src="https://1.bp.blogspot.com/-8uJwY6OILHI/XNxx8ChztRI/AAAAAAAAAsU/NYVIjg7QE6cVjgf2AvErM03SJghMfgsZQCLcBGAs/s1600/skills-icon.png" alt="Ilustração uma pessoa de perfil tendo uma ideia"></img></a>
+                            <img src={iconSkills} alt="Ilustração uma pessoa de perfil tendo uma ideia"></img></a>
                         </Link>
                         
                     </li>
                     <li>
                         <Link href="/educacao"><a className="nav-link">Educação
-                            <img src="https://1.bp.blogspot.com/-8IRgeizs10I/XNxx4W6d48I/AAAAAAAAAr0/hIneFYUTN5YF4s4RpwGnhbpHsuIi-s4sACLcBGAs/s1600/education-icon.png" alt="Ilustração de uma mulher usando um capelo"></img></a>
+                            <img src={iconEdu} alt="Ilustração de uma mulher usando um capelo"></img></a>
                         </Link>
                     </li>
                     <li>
                         <Link href="/projetos"><a className="nav-link">Projetos
-                            <img src="https://1.bp.blogspot.com/-rRjfHN06JTk/XNxx7HUXq8I/AAAAAAAAAsM/EwqF6dj6ex4sPnKs57iFz4fsLh1_nqDBACLcBGAs/s1600/projects-icon.png" alt="Ilustração de uma página de código"></img></a>
+                            <img src={iconProj} alt="Ilustração de uma página de código"></img></a>
                         </Link>
                         
                     </li>
                     <li>
                         <Link href="/experiencia"><a className="nav-link">Experiência
-                            <img src="https://4.bp.blogspot.com/-GaAL1cwP-C0/XNxx42HQvcI/AAAAAAAAAr4/k9IviYossk0Pi5192hs29VtoH9cXTNelwCLcBGAs/s1600/experience-icon.png" alt="Ilustração de uma mulher com crachá"></img></a>
+                            <img src={iconXP} alt="Ilustração de uma mulher com crachá"></img></a>
                         </Link>
                     </li>
                     <li>
                         <Link href="/contato"><a className="nav-link">Contato
-                            <img src="https://4.bp.blogspot.com/-OwKz6-V9ddM/XNxx4YJzgHI/AAAAAAAAArw/R3sUlmL4B-AVEpVPyGQ-R9fJtuv4Cv3SwCLcBGAs/s1600/contact-icon.png" alt="Ilustração de um envelope azul"></img></a>
+                            <img src={iconContact} alt="Ilustração de um envelope azul"></img></a>
                         </Link>
                     </li>
                 </ul>

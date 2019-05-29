@@ -1,12 +1,15 @@
 import Layout from '../components/layout'
+
 import '../src/css/main.scss'
 import '../src/css/index.scss'
+import sailorMoon from '../src/img/sailormoon-img.jpg'
+
 
 const Sobre = () => (
         <Layout>
            <h1 className="titulo-pagina" style={{color: "rgb(77, 61, 61)"}}>Gisele Mara Leonardi | Software Developer</h1>
            <div className="sobre-mim">
-            <img src="http://sailormoonnews.com/wp-content/uploads/2014/07/sailor_moon_crystal_02_luna_and_usagi_at_the_computer.jpg"/>
+            <img src={sailorMoon}/>
             <p>
                Comecei na área de programação estudando por conta própria com os inúmeros recursos online, 
                sou muito curiosa para <strong>aprender novas tecnologias e ferramentas</strong>, e por isso estou sempre estudando 
