@@ -1,12 +1,11 @@
 import Layout from '../components/layout'
 import '../src/css/main.scss'
 
-const habilidades = ["JavaScript", "CSS", "HTML5", "SQL", "Design Responsivo", "Design de Cor", "Solução de Problemas", "Trabalho em Equipe"]
-
-const tecnologias = ["ReactJS", "JQuery", "Bootstrap", "Sass", "Less", "Styled Components", "Materialize", "PostgreSQL", "MongoDB", 
-"Git", "GitHub", "Ubuntu", "Windows", "Npm"]
-
-const idiomas = ["Português Nativo", "Inglês Avançado", "Espanhol Intermediário", "Libras Básico"]
+const habilidades = ["Design Responsivo", "Design de Cor", "Solução de Problemas", "Trabalho em Equipe", "Responsabilidade", "Organização"]
+const frontEndStack = ["Javascript", "CSS", "HTML5", "Less", "React", "Sass", "Redux", "Bootstrap", "React-Router", "Materialize", "NextJS", "StyledComponents", "JQuery"]
+const backEndStack = ["NodeJS", "SQL", "Express", "PostgreSQL", "Webpack", "MongoDB"]
+const ferramentas = ["Git", "Windows", "GitHub", "Ubuntu", "Npm"]
+const idiomas = ["Português Nativo", "Espanhol Intermediário","Inglês Avançado", "Libras Básico"]
 
 const Habilidades = () => (
         <Layout 
@@ -21,10 +20,26 @@ const Habilidades = () => (
                      })
                   }
                </ul>
-            <h3 className="subtitulo-pagina">Tecnologias</h3>
-               <ul id="tecnologiasArr">
+            <h3 className="subtitulo-pagina">Front-End</h3>
+               <ul className="tecnologiasArr">
                   {
-                     tecnologias.map((item, id) => {
+                     frontEndStack.map((item, id) => {
+                        return <li key={id}>{item}</li>
+                     })
+                  }
+               </ul>
+               <h3 className="subtitulo-pagina">Back-End</h3>
+               <ul className="tecnologiasArr">
+                  {
+                     backEndStack.map((item, id) => {
+                        return <li key={id}>{item}</li>
+                     })
+                  }
+               </ul>
+               <h3 className="subtitulo-pagina">Ferramentas</h3>
+               <ul className="tecnologiasArr">
+                  {
+                     ferramentas.map((item, id) => {
                         return <li key={id}>{item}</li>
                      })
                   }

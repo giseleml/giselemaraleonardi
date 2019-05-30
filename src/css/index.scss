@@ -1,5 +1,12 @@
 @import "./variables.scss";
 
+#meu-titulo {
+    text-align: center;
+    font-family: $sub-font;
+    color: #edf6f8;
+    text-shadow: 2px 2px 5px #aa4b6b;
+}
+
 .sobre-mim {
     display: flex;
     align-items: center;
@@ -22,6 +29,8 @@
         font-size: 1.1rem;
         line-height: 1.7rem;
         text-align: left;
+        background: $transparent-bg;
+        padding: 1rem 1rem;
     }
 }
 

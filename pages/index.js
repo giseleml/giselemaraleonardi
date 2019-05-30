@@ -6,7 +6,7 @@ import sailorMoon from '../src/img/sailormoon-img.jpg'
 
 const Sobre = () => (
         <Layout content="Está página contém um pouco da minha ambição à profissão de desenvolvedora de software."> 
-           <h1 className="titulo-pagina" style={{color: "rgb(77, 61, 61)"}}>Gisele Mara Leonardi | Software Developer</h1>
+           <h1 id="meu-titulo">Gisele Mara Leonardi | Software Developer</h1>
            <div className="sobre-mim">
             <img src={sailorMoon} alt="Imagem da Sailon Moon no computador"/>
             <p>

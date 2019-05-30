@@ -56,7 +56,7 @@ const CodepenProjects = () => (
             return <div className="codepen-list-projects" key={id}>
                      <h3 key={id} className="subtitulo-pagina">{item.titulo}</h3>
                      <img src={item.img} alt={item.alt}></img>
-                     <p><a href={item.url} target="_blank" rel="noopener">Acesse aqui</a></p>
+                     <h3><a href={item.url} target="_blank" rel="noopener">Acesse aqui</a></h3>
                   </div>
          })
       }

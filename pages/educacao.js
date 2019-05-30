@@ -50,7 +50,6 @@ const Educacao = () => {
       }
    
    ]
-   
       return (
          <Layout 
          title="| Educação"
