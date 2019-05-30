@@ -9,7 +9,9 @@ const tecnologias = ["ReactJS", "JQuery", "Bootstrap", "Sass", "Less", "Styled C
 const idiomas = ["Português Nativo", "Inglês Avançado", "Espanhol Intermediário", "Libras Básico"]
 
 const Habilidades = () => (
-        <Layout content="Está página contém uma listagem das habilidades e tecnologias que eu conheço e uso, além de idiomas que falo.">
+        <Layout 
+        title="| Habilidades"
+        content="Está página contém uma listagem das habilidades e tecnologias que eu conheço e uso, além de idiomas que falo.">
            <h1 className="titulo-pagina">Habilidades & Tecnologias</h1>
            <h3 className="subtitulo-pagina">Habilidades</h3>
                <ul id="habilidadesArr">

@@ -10,7 +10,6 @@ module.exports = withSass(withImages({
         "/habilidades": { page: "/habilidades" },
         "/educacao": { page: "/educacao" },
         "/projetos": { page: "/projetos" },
-        "/experiencia": { page: "/experiencia" },
         "/contato": { page: "/contato" },
       }
     },

@@ -6,7 +6,6 @@ import iconAbout from '../src/img/aboutme-icon.png'
 import iconSkills from '../src/img/skills-icon.png'
 import iconEdu from '../src/img/education-icon.png'
 import iconProj from '../src/img/projects-icon.png'
-import iconXP from '../src/img/experience-icon.png'
 import iconContact from '../src/img/contact-icon.png'
 
 const NavBar = () => (
@@ -39,11 +38,6 @@ const NavBar = () => (
                             <img src={iconProj} alt="Ilustração de uma página de código"></img></a>
                         </Link>
                         
-                    </li>
-                    <li>
-                        <Link href="/experiencia"><a className="nav-link">Experiência
-                            <img src={iconXP} alt="Ilustração de uma mulher com crachá"></img></a>
-                        </Link>
                     </li>
                     <li>
                         <Link href="/contato"><a className="nav-link">Contato
