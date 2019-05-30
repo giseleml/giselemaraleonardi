@@ -2,13 +2,13 @@ import Layout from '../components/layout'
 
 import '../src/css/main.scss'
 import '../src/css/index.scss'
-import sailorMoon from '../src/img/sailormoon-img.jpg'
+import minhaFoto from '../src/img/gisele-ml.png'
 
 const Sobre = () => (
         <Layout content="Está página contém um pouco da minha ambição à profissão de desenvolvedora de software."> 
-           <h1 id="meu-titulo">Gisele Mara Leonardi | Software Developer</h1>
+           <h1 id="meu-titulo">Gisele Mara Leonardi | Software Developer Jr.</h1>
            <div className="sobre-mim">
-            <img src={sailorMoon} alt="Imagem da Sailon Moon no computador"/>
+            <img src={minhaFoto} alt="Imagem da Sailon Moon no computador"/>
             <p>
                Comecei na área de programação estudando por conta própria com os inúmeros recursos online, 
                sou muito curiosa para <strong>aprender novas tecnologias e ferramentas</strong>, e por isso estou sempre estudando 

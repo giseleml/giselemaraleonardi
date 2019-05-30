@@ -15,14 +15,13 @@
         text-decoration: none;
         font-family: $sub-font;
         font-weight: bold;
-        font-size: 1.3rem;
+        font-size: 1.4rem;
         color: rgb(77, 61, 61);
     }
 
     a:hover {
         color: wheat;
         text-shadow: 3px 1px 4px black;
-        font-size: 1.4rem;
     }
 
     label, #hamb-btn {
@@ -40,11 +39,16 @@
         li {
             border: 0.5px solid rgb(140, 140, 140);
             box-shadow: 2px 2px 5px black;
-            background-color:#e6e6ff;
+            background-color: $transparent-bg;
             width: 7rem;
             margin-top: 1rem;
             line-height: 3.5rem;
             padding: 0.5rem 0.5rem;
+        }
+
+        a {
+            color: #edf6f8;
+            text-shadow: 1px 1px black;
         }
 
         label {
