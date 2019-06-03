@@ -4,8 +4,8 @@ body {
     background: url('http://cdn.knowledgehi.com/3840x1080/20180613/5b20a4f1550ce.jpg');
     background-attachment: fixed;
     min-height: 100%;
-    font-family: 'Noto Sans JP', sans-serif;;
-    font-size: 1.1rem;
+    font-family: 'Comfortaa', cursive;
+    font-size: 1.2rem;
 }
 
 .titulo-pagina {
@@ -22,31 +22,41 @@ body {
     color: #edf6f8;
 }
 
-// habilidades.js
-#habilidadesArr, .tecnologiasArr, #idiomasArr {
+//habilidades.js 
+#skill-list {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-column-gap: 1rem;
-    grid-row-gap: 0.5rem;
-    margin-left: 13%;
-    list-style: none;
-    font-size: 1.4rem;
+    margin-left: 10%;
+    grid-template-columns: 30% 30% 30%;
 
-    li::before {
-        content:"\2022 ";
-        color: #edf6f8;
+    img {
+        width: 8rem;
+        height: 8rem;
     }
+
+    #cssArr, #jsArr, #dbArr {
+        list-style-type: none;
+        justify-self: center;
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+    }
+    
 }
 
 // contatos.js 
 #contatos {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-around;
     list-style-type: none;
 }
 
 @media only screen and (max-width: 800px) {
-    #habilidadesArr, .tecnologiasArr, #idiomasArr {
-        margin-left: 0;
+    #skill-list {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #contatos {
+        flex-direction: column;
     }
 }

@@ -12,7 +12,7 @@ const Layout = (props) => (
             <html lang="pt-br"></html>
             <meta name="Description" content={props.content}></meta>
             <link href="https://fonts.googleapis.com/css?family=Poiret+One&display=swap" rel="stylesheet"></link>
-            <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap" rel="stylesheet"></link>
+            <link href="https://fonts.googleapis.com/css?family=Comfortaa&display=swap" rel="stylesheet"></link>
         </Head>
         <NavBar />
         {props.children}
