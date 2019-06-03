@@ -3,7 +3,7 @@
 .navbar {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
-    background-color: $transparent-bg;
+   
     margin-top: -1rem;
 
     ul, li, a {
@@ -14,9 +14,8 @@
         list-style-type: none;
         text-decoration: none;
         font-family: $sub-font;
-        font-weight: bold;
         font-size: 1.4rem;
-        color: rgb(77, 61, 61);
+        color: #fff;
     }
 
     a:hover {
@@ -61,7 +60,7 @@
         // The hamburger button itself
         label span {
             display: inline-block;
-            background-color: #333;
+            background-color: #fff;
             border-radius: 3px;
             width: 35px;
             height: 5px;

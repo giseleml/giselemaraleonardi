@@ -3,8 +3,19 @@
 #meu-titulo {
     text-align: center;
     font-family: $sub-font;
-    color: #edf6f8;
-    text-shadow: 2px 2px 5px #aa4b6b;
+    font-size: 3rem;
+    color: $pale-yellow;
+    text-transform: uppercase;
+
+    hr {
+        width: 40%;
+    }
+
+    h6 {
+        margin: 0;
+        font-size: 1.5rem;
+        text-transform: capitalize;
+    }
 }
 
 .sobre-mim {
@@ -14,8 +25,8 @@
 
     & img {
         border-radius: 50%;
-        width: 14rem;
-        height: 15rem;
+        width: 11rem;
+        height: 11rem;
         box-shadow: 2px 0px 5px black;
     }
 

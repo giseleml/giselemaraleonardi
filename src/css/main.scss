@@ -1,16 +1,18 @@
 @import "./variables.scss";
 
 body {
-    background: linear-gradient(to top, #aa4b6b, #6b6b83, #3b8d99);
+    background: url('http://cdn.knowledgehi.com/3840x1080/20180613/5b20a4f1550ce.jpg');
     background-attachment: fixed;
-    font-family: 'Segoe UI', Verdana, sans-serif;
+    min-height: 100%;
+    font-family: 'Noto Sans JP', sans-serif;;
     font-size: 1.1rem;
 }
 
 .titulo-pagina {
     text-align: center;
     font-family: $sub-font;
-    text-shadow: 2px 2px 5px #d095a9;
+    text-shadow: 2px 2px 2px black;
+    color: $pale-yellow;
 }
 
 .subtitulo-pagina {
@@ -18,7 +20,6 @@ body {
     font-family: $sub-font;
     font-size: 1.7rem;
     color: #edf6f8;
-    text-shadow: 2px 2px 5px #aa4b6b;
 }
 
 // habilidades.js
