@@ -45,6 +45,24 @@ const codepenData = [
       img: "https://screenshot.codepen.io/2565984.pBpKyq.small.2ec84f7d-4282-4cb5-9fb3-240d39acb64d.png",
       url: "https://codepen.io/giseleml/pen/pBpKyq",
       alt: "Screenshot do projeto CSS Hello Kitty"
+   },
+   {
+      titulo: "Bubble Sort",
+      img: "https://screenshot.codepen.io/2565984.WBQjVY.b43640a8-1a5e-4127-af22-c80ad33da3a2.png",
+      url: "https://codepen.io/giseleml/pen/WBQjVY",
+      alt: "Screenshot do projeto Bubble Sort"
+   }, 
+   {
+      titulo: "Conversor Fahrenheit",
+      img: "https://screenshot.codepen.io/2565984.PgZNLw.0befb8e3-f60e-48d5-bd59-b906b787ed30.png",
+      url: "https://codepen.io/giseleml/pen/PgZNLw",
+      alt: "Screenshot do projeto conversor fahrenheit"
+   },
+   {
+      titulo: "Drum Machine",
+      img: "",
+      url: "https://codepen.io/giseleml/pen/OdZbLj",
+      alt: "Screenshot do projeto drum machine dos Simpsons"
    }
 
 ]
@@ -55,7 +73,7 @@ const CodepenProjects = () => (
          codepenData.map((item, id) => {
             return <div className="codepen-list-projects" key={id}>
                      <h3 key={id} className="subtitulo-pagina">{item.titulo}</h3>
-                     <img src={item.img} alt={item.alt}></img>
+                     <img src={!item.img ? "https://www.betterteam.com/i/codepen-420x320-20181026.jpg" : item.img} alt={item.alt}></img>
                      <h3><a href={item.url} target="_blank" rel="noopener">Acesse aqui</a></h3>
                   </div>
          })
