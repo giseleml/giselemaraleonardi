@@ -49,15 +49,15 @@
     .timeline-item:nth-child(odd) a {
       text-decoration: underline; } }
 
-#meu-titulo {
+.meu-titulo {
   text-align: center;
   font-family: "Poiret One", cursive;
-  font-size: 3rem;
+  font-size: 1.5rem;
   color: #ffffe6;
   text-transform: uppercase; }
-  #meu-titulo hr {
+  .meu-titulo hr {
     width: 40%; }
-  #meu-titulo h6 {
+  .meu-titulo h6 {
     margin: 0;
     font-size: 1.5rem;
     text-transform: capitalize; }
@@ -91,7 +91,7 @@
   text-align: center; }
 
 .codepen-list-projects img {
-  width: 20rem;
+  max-width: 18rem;
   box-shadow: 6px 8px 5px #333333; }
 
 @media only screen and (max-width: 1023px) {
