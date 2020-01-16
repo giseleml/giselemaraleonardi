@@ -7,9 +7,11 @@ import minhaFoto from '../src/img/gisele-ml.png'
 
 const Sobre = () => (
         <Layout content="Está página contém um pouco da minha ambição à profissão de desenvolvedora de software."> 
-           <h1 id="meu-titulo">Gisele Mara Leonardi</h1>
-            <hr></hr>
-            <h6>Software Developer Jr.</h6>
+           <div class="meu-titulo">
+               <h1>Gisele Mara Leonardi</h1>
+               <hr></hr>
+               <h6>Software Developer Jr.</h6>
+            </div>
            <div className="sobre-mim">
            <img src={minhaFoto} alt="Imagem da Sailon Moon no computador"/>
             <p>

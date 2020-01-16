@@ -13,7 +13,6 @@ const debug = process.env.NODE_ENV !== "production";
           "/contato": { page: "/contato" },
         }
       },
-      cssModules: true,
       assetPrefix: !debug ? 'https://giseleml.github.io/giselemaraleonardi/' : '',
       imageTypes: ['jpg', 'png']
   })

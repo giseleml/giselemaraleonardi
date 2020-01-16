@@ -7,8 +7,8 @@ import jsLogo from '../src/img/logo-javascript.png'
 import dbLogo from '../src/img/logo-database.png'
 
 const css = ['CSS', 'Less', 'Sass', 'Bootstrap', 'Materialize', 'Styled-Components']
-const js = ['JavaScript', 'JQuery', 'React', 'Redux', 'React-Router', 'NextJS']
-const db = ['SQL', 'PostgreSQL', 'MongoDB']
+const js = ['JavaScript', 'ReactJS', 'Redux', 'React-Router', 'NextJS', 'JQuery']
+const db = ['Node.js', 'SQL', 'PostgreSQL', 'MongoDB']
 
 const Habilidades = () => (
         <Layout 
