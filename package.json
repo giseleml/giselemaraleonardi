@@ -23,7 +23,7 @@
   "bugs": {
     "url": "https://github.com/giseleml/giselemaraleonardi/issues"
   },
-  "homepage": "https://github.com/giseleml/giselemaraleonardi#readme",
+  "homepage": "https://github.com/giseleml",
   "dependencies": {
     "@zeit/next-sass": "^1.0.1",
     "next": "^8.1.0",
