@@ -1,10 +1,9 @@
 import Layout from '../components/layout'
-
-import '../src/css/main.scss'
-
 import iconGmail from '../src/img/gmail-icon.png'
 import iconGithub from '../src/img/github-icon.png'
 import iconLinkedin from '../src/img/linkedin-icon.png'
+
+import '../src/css/main.scss'
 
 const Contato = () => (
         <Layout 

@@ -1,7 +1,8 @@
-import Layout from '../components/layout'
-import Timeline from '../components/timeline'
 import '../src/css/main.scss'
 import '../src/css/timeline.scss'
+
+import Layout from '../components/layout'
+import Timeline from '../components/timeline'
 
 const Educacao = () => {
    const eduData = [
