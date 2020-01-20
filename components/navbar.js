@@ -18,29 +18,29 @@ const NavBar = () => (
                 </label>
                 <ul>
                     <li>   
-                        <Link href="/"><a className="nav-link">Sobre mim
+                        <Link href="/" as={ process.env.BACKEND_URL + '/'}><a className="nav-link">Sobre mim
                             <img src={iconAbout} alt="Ilustração de uma mulher de óculos escuros"></img></a>
                         </Link>
                     </li>
                     <li>
-                        <Link href="/habilidades"><a className="nav-link">Habilidades
+                        <Link href="/habilidades" as={ process.env.BACKEND_URL + '/habilidades'}><a className="nav-link">Habilidades
                             <img src={iconSkills} alt="Ilustração uma pessoa de perfil tendo uma ideia"></img></a>
                         </Link>
                         
                     </li>
                     <li>
-                        <Link href="/educacao"><a className="nav-link">Educação
+                        <Link href="/educacao" as={ process.env.BACKEND_URL + '/educacao'}><a className="nav-link">Educação
                             <img src={iconEdu} alt="Ilustração de uma mulher usando um capelo"></img></a>
                         </Link>
                     </li>
                     <li>
-                        <Link href="/projetos"><a className="nav-link">Projetos
+                        <Link href="/projetos" as={ process.env.BACKEND_URL + '/projetos'}><a className="nav-link">Projetos
                             <img src={iconProj} alt="Ilustração de uma página de código"></img></a>
                         </Link>
                         
                     </li>
                     <li>
-                        <Link href="/contato"><a className="nav-link">Contato
+                        <Link href="/contato" as={ process.env.BACKEND_URL + '/contato'}><a className="nav-link">Contato
                             <img src={iconContact} alt="Ilustração de um envelope azul"></img></a>
                         </Link>
                     </li>
