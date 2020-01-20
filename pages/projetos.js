@@ -84,7 +84,8 @@ const CodepenProjects = () => (
 const Projetos = () => (
         <Layout 
         title="| Projetos"
-        content="Página com os projetos de programação.">
+        content="Página com os projetos de programação."
+        >
            <h1 className="titulo-pagina">Meus Projetos</h1>
             <CodepenProjects />
         </Layout>
