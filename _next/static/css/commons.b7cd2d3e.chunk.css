@@ -22,11 +22,9 @@
   .navbar ul {
     display: none; }
   .navbar li {
-    border: 0.5px solid #8c8c8c;
-    box-shadow: 2px 2px 5px black;
-    background-color: rgba(227, 227, 232, 0.2);
+    border: 1px solid #8c8c8c;
     width: 7rem;
-    margin-top: 1rem;
+    margin: 1rem 0 1rem 0;
     line-height: 3.5rem;
     padding: 0.5rem 0.5rem; }
   .navbar a {
@@ -39,7 +37,7 @@
     margin-left: 0.5rem; }
   .navbar label span {
     display: inline-block;
-    background-color: #fff;
+    background-color: #f4f1f1;
     border-radius: 3px;
     width: 35px;
     height: 5px;
@@ -97,14 +95,15 @@ body {
   #skill-list #cssArr, #skill-list #jsArr, #skill-list #dbArr {
     list-style-type: none;
     justify-self: center;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     line-height: 2.5rem; }
 
 #contatos {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  list-style-type: none; }
+  list-style-type: none;
+  font-size: 1rem; }
 
 @media only screen and (max-width: 800px) {
   #skill-list {
