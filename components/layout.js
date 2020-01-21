@@ -11,7 +11,7 @@ const Layout = (props) => (
             <meta charSet="UTF-8"></meta>
             <html lang="pt-br"></html>
             <meta name="Description" content={props.content}></meta>
-            <link href="https://fonts.googleapis.com/css?family=Poiret+One&display=swap" rel="stylesheet"></link>
+            <link href="https://fonts.googleapis.com/css?family=Poiret+One&display=swap" rel="stylesheet" async></link>
         </Head>
         <NavBar />
         {props.children}

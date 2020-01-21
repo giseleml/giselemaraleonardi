@@ -1,5 +1,7 @@
-import Layout from '../components/layout'
 import '../src/css/main.scss'
+
+import LazyLoad from 'react-lazyload';
+import Layout from '../components/layout';
 import '../src/css/projetos.scss'
 
 const codepenData = [
@@ -73,7 +75,12 @@ const CodepenProjects = () => (
          codepenData.map((item, id) => {
             return <div className="codepen-list-projects" key={id}>
                      <h3 key={id} className="subtitulo-pagina">{item.titulo}</h3>
-                     <img src={!item.img ? "https://www.betterteam.com/i/codepen-420x320-20181026.jpg" : item.img} alt={item.alt}></img>
+                     <LazyLoad 
+                     height={300} 
+                     once={true}
+                     >
+                        <img src={!item.img ? "https://www.betterteam.com/i/codepen-420x320-20181026.jpg" : item.img} alt={item.alt}></img>
+                     </LazyLoad>
                      <h3><a href={item.url} target="_blank" rel="noopener">Acesse aqui</a></h3>
                   </div>
          })
