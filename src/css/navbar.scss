@@ -35,11 +35,16 @@
         }
         
         li {
-            border: 1px solid rgb(140, 140, 140);
+            border-right: 1px solid #edf6f8;
+            border-bottom:  1px solid #edf6f8;
             width: 7rem;
             margin: 1rem 0 1rem 0;
             line-height: 3.5rem;
             padding: 0.5rem 0.5rem;
+
+            img {
+                display: none;
+            }
         }
 
         a {
