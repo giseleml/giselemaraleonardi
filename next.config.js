@@ -14,7 +14,8 @@ const debug = process.env.NODE_ENV !== "production";
         }
       },
       assetPrefix: !debug ? '/giselemaraleonardi' : '',
-      imageTypes: ['jpg', 'png']
+      imageTypes: ['jpg', 'png'],
+      
   })
 
 module.exports = withPlugins([ 
