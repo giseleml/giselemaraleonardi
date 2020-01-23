@@ -34,6 +34,7 @@
     & p {
         max-width: 70%;
         font-size: 1rem;
+        color:#080808;
         line-height: 2rem;
         text-align: left;
         padding: 1rem 1rem;  
@@ -47,6 +48,11 @@
         }
         p {
             width: 100%;
+            color: #bfbfbf;
+
+            strong {
+                color: #85adad;
+            }
         }
     }
 }
