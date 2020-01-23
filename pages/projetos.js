@@ -12,6 +12,13 @@ const codepenData = [
       alt: "Screenshot do projeto React Accordion"
    },
    {
+      titulo: "Photograph.y Responsive Website",
+      img: "https://screenshot.codepen.io/2565984.oNgmQjy.ffdfd7ec-6c34-4924-b956-57f40b058bbe.png",
+      url: "https://codepen.io/giseleml/full/oNgmQjy",
+      alt: "Screenshot do projeto Photography site responsivo"
+
+   },
+   {
       titulo: "React Calculadora",
       img: "https://screenshot.codepen.io/2565984.vbrJZw.small.fa7206bf-3729-4784-8bca-8ce204ad0d1b.png",
       url: "https://codepen.io/giseleml/pen/vbrJZw",
@@ -65,8 +72,13 @@ const codepenData = [
       img: "",
       url: "https://codepen.io/giseleml/pen/OdZbLj",
       alt: "Screenshot do projeto drum machine dos Simpsons"
+   }, 
+   {
+      titulo: "CSS Vintage Card",
+      img: "https://screenshot.codepen.io/2565984.pmpxJJ.b485b33e-4aa8-4db3-8f9e-7d539896a907.png",
+      url: "https://codepen.io/giseleml/pen/pmpxJJ",
+      alt: "Card estilo vintage feito em CSS"
    }
-
 ]
 
 const CodepenProjects = () => (
