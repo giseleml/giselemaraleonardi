@@ -96,7 +96,8 @@
   text-align: center; }
 
 .codepen-list-projects img {
-  max-width: 18rem;
+  width: 18rem;
+  height: 11rem;
   box-shadow: 6px 8px 5px #333333; }
 
 @media only screen and (max-width: 1023px) {
