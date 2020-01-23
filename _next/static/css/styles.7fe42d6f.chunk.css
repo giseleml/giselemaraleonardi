@@ -75,6 +75,7 @@
   .sobre-mim p {
     max-width: 70%;
     font-size: 1rem;
+    color: #080808;
     line-height: 2rem;
     text-align: left;
     padding: 1rem 1rem; }
@@ -83,7 +84,10 @@
   .sobre-mim img {
     max-width: 25rem; }
   .sobre-mim p {
-    width: 100%; } }
+    width: 100%;
+    color: #bfbfbf; }
+    .sobre-mim p strong {
+      color: #85adad; } }
 
 .codepen-list {
   display: grid;

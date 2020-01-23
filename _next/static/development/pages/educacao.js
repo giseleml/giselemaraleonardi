@@ -11017,7 +11017,7 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg
 
 /***/ }),
 
-/***/ 5:
+/***/ 7:
 /*!*****************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Feducacao&absolutePagePath=C%3A%5CUsers%5CMicro5%5CDocuments%5Cportfolio%5Cgiselemaraleonardi%5Cpages%5Ceducacao.js ***!
   \*****************************************************************************************************************************************************************/
@@ -11040,5 +11040,5 @@ module.exports = dll_f63c51d7c013ef4fdbda;
 
 /***/ })
 
-},[[5,"static/runtime/webpack.js","styles"]]]);
+},[[7,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=educacao.js.map

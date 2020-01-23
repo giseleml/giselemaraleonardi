@@ -11619,7 +11619,7 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg
 
 /***/ }),
 
-/***/ 7:
+/***/ 5:
 /*!*****************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fprojetos&absolutePagePath=C%3A%5CUsers%5CMicro5%5CDocuments%5Cportfolio%5Cgiselemaraleonardi%5Cpages%5Cprojetos.js ***!
   \*****************************************************************************************************************************************************************/
@@ -11642,5 +11642,5 @@ module.exports = dll_f63c51d7c013ef4fdbda;
 
 /***/ })
 
-},[[7,"static/runtime/webpack.js","styles"]]]);
+},[[5,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=projetos.js.map

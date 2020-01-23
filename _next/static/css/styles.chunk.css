@@ -141,6 +141,7 @@ body {
   .sobre-mim p {
     max-width: 70%;
     font-size: 1rem;
+    color: #080808;
     line-height: 2rem;
     text-align: left;
     padding: 1rem 1rem; }
@@ -149,7 +150,31 @@ body {
   .sobre-mim img {
     max-width: 25rem; }
   .sobre-mim p {
-    width: 100%; } }
+    width: 100%;
+    color: #bfbfbf; }
+    .sobre-mim p strong {
+      color: #85adad; } }
+
+.codepen-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+  text-align: center; }
+
+.codepen-list-projects img {
+  max-width: 18rem;
+  box-shadow: 6px 8px 5px #333333; }
+
+@media only screen and (max-width: 1023px) {
+  .codepen-list img {
+    max-width: 100%; } }
+
+@media only screen and (max-width: 800px) {
+  .codepen-list {
+    display: flex;
+    flex-direction: column; }
+  .codepen-list-projects img {
+    max-width: 20rem; } }
 
 .timeline {
   display: flex;
@@ -201,27 +226,6 @@ body {
     .timeline-item a,
     .timeline-item:nth-child(odd) a {
       text-decoration: underline; } }
-
-.codepen-list {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 1rem;
-  text-align: center; }
-
-.codepen-list-projects img {
-  max-width: 18rem;
-  box-shadow: 6px 8px 5px #333333; }
-
-@media only screen and (max-width: 1023px) {
-  .codepen-list img {
-    max-width: 100%; } }
-
-@media only screen and (max-width: 800px) {
-  .codepen-list {
-    display: flex;
-    flex-direction: column; }
-  .codepen-list-projects img {
-    max-width: 20rem; } }
 
 
 /*# sourceMappingURL=styles.chunk.css.map*/
