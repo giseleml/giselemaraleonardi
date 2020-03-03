@@ -27,7 +27,7 @@ body {
     display: grid;
     margin-left: 10%;
     grid-template-columns: 30% 30% 30%;
-    
+    color: #bfbfbf;
 
     img {
         width: 8rem;
@@ -50,6 +50,7 @@ body {
     justify-content: space-around;
     list-style-type: none;
     font-size: 1rem;
+    color: #bfbfbf;
 }
 
 @media only screen and (max-width: 800px) {

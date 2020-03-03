@@ -24,7 +24,7 @@ const Sobre = () => (
                   Consigo reconhecer meus erros e buscar repará-los, para assim crescer como pessoa e também como profissional. 
                   Meu objetivo é ser uma <strong>excelente</strong> programadora, aprender todos os dias, estar sempre atualizada e 
                   construir coisas que serão úteis <strong>(e legais!)</strong> para as pessoas.
-                  <br></br><strong>Quer ver meu currículo? :) <a href="https://drive.google.com/file/d/1odqZCMkLnxoSPPNOURtmWI4tr2Bpo-Pc/view?usp=sharing" target="_blank">Clique aqui!</a></strong>
+                  <br></br><strong>Quer ver meu currículo? :) <a href="https://docs.google.com/document/d/1auwWWODDXaMnHwWskNQCTd-gxYhBuQMiPQTKZ-f0lcA/edit?usp=sharing" target="_blank">Clique aqui!</a></strong>
                </p>
             </div>
         </Layout>
