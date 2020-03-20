@@ -1,9 +1,9 @@
 import Layout from '../components/layout'
+import minhaFoto from '../src/img/gisele-ml.png'
 
 import '../src/css/main.scss'
 import '../src/css/index.scss'
 
-import minhaFoto from '../src/img/gisele-ml.png'
 
 const Sobre = () => (
         <Layout content="Está página contém um pouco da minha ambição à profissão de desenvolvedora de software."> 

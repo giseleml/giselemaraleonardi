@@ -1,8 +1,9 @@
 import '../src/css/main.scss'
-
-import LazyLoad from 'react-lazyload';
-import Layout from '../components/layout';
 import '../src/css/projetos.scss'
+
+import LazyLoad from 'react-lazyload'
+import Layout from '../components/layout'
+
 
 const codepenData = [
    {
@@ -78,6 +79,16 @@ const codepenData = [
       img: "https://screenshot.codepen.io/2565984.pmpxJJ.b485b33e-4aa8-4db3-8f9e-7d539896a907.png",
       url: "https://codepen.io/giseleml/pen/pmpxJJ",
       alt: "Card estilo vintage feito em CSS"
+   },
+   {
+      titulo: "My first landing page",
+      url: "https://codepen.io/giseleml/full/oNXqbBZ",
+      alt: "Screenshot do meu projeto Landing page"
+   },
+   {
+      titulo: "Cat Facts",
+      url: "https://codepen.io/giseleml/full/gObELBj",
+      alt: "Screenshot do meu projeto Cat Facts"
    }
 ]
 
