@@ -43,7 +43,7 @@
     background-color: #f4f1f1;
     border-radius: 3px;
     width: 35px;
-    height: 5px;
+    height: 3px;
     pointer-events: all;
     cursor: pointer;
     transition: 0.4s; }
@@ -67,7 +67,7 @@
     transform: translateY(0) rotate(-45deg); }
   .navbar input:checked ~ label span:nth-child(3) {
     transform: translateY(0) rotate(45deg);
-    margin: -8px 0; } }
+    margin: -5px 0; } }
 
 body {
   background: url("http://cdn.knowledgehi.com/3840x1080/20180613/5b20a4f1550ce.jpg");
@@ -91,7 +91,8 @@ body {
 #skill-list {
   display: grid;
   margin-left: 10%;
-  grid-template-columns: 30% 30% 30%; }
+  grid-template-columns: 30% 30% 30%;
+  color: #bfbfbf; }
   #skill-list img {
     width: 8rem;
     height: 8rem; }
@@ -106,7 +107,8 @@ body {
   flex-direction: row;
   justify-content: space-around;
   list-style-type: none;
-  font-size: 1rem; }
+  font-size: 1rem;
+  color: #bfbfbf; }
 
 @media only screen and (max-width: 800px) {
   #skill-list {

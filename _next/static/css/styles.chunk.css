@@ -1,3 +1,73 @@
+body {
+  background: url("http://cdn.knowledgehi.com/3840x1080/20180613/5b20a4f1550ce.jpg");
+  background-attachment: fixed;
+  min-height: 100%;
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 1.2rem; }
+
+.titulo-pagina {
+  text-align: center;
+  font-family: "Poiret One", cursive;
+  text-shadow: 2px 2px 2px black;
+  color: #ffffe6; }
+
+.subtitulo-pagina {
+  text-align: center;
+  font-family: "Poiret One", cursive;
+  font-size: 1.7rem;
+  color: #edf6f8; }
+
+#skill-list {
+  display: grid;
+  margin-left: 10%;
+  grid-template-columns: 30% 30% 30%;
+  color: #bfbfbf; }
+  #skill-list img {
+    width: 8rem;
+    height: 8rem; }
+  #skill-list #cssArr, #skill-list #jsArr, #skill-list #dbArr {
+    list-style-type: none;
+    justify-self: center;
+    font-size: 1.2rem;
+    line-height: 2.5rem; }
+
+#contatos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style-type: none;
+  font-size: 1rem;
+  color: #bfbfbf; }
+
+@media only screen and (max-width: 800px) {
+  #skill-list {
+    display: flex;
+    flex-direction: column; }
+  #contatos {
+    flex-direction: column; } }
+
+.codepen-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+  text-align: center; }
+
+.codepen-list-projects img {
+  width: 18rem;
+  height: 11rem;
+  box-shadow: 6px 8px 5px #333333; }
+
+@media only screen and (max-width: 1023px) {
+  .codepen-list img {
+    max-width: 100%; } }
+
+@media only screen and (max-width: 800px) {
+  .codepen-list {
+    display: flex;
+    flex-direction: column; }
+  .codepen-list-projects img {
+    max-width: 20rem; } }
+
 .navbar {
   display: grid;
   grid-template-columns: 1fr 3fr 1fr;
@@ -43,7 +113,7 @@
     background-color: #f4f1f1;
     border-radius: 3px;
     width: 35px;
-    height: 5px;
+    height: 3px;
     pointer-events: all;
     cursor: pointer;
     transition: 0.4s; }
@@ -67,115 +137,7 @@
     transform: translateY(0) rotate(-45deg); }
   .navbar input:checked ~ label span:nth-child(3) {
     transform: translateY(0) rotate(45deg);
-    margin: -8px 0; } }
-
-body {
-  background: url("http://cdn.knowledgehi.com/3840x1080/20180613/5b20a4f1550ce.jpg");
-  background-attachment: fixed;
-  min-height: 100%;
-  font-family: Tahoma, Geneva, sans-serif;
-  font-size: 1.2rem; }
-
-.titulo-pagina {
-  text-align: center;
-  font-family: "Poiret One", cursive;
-  text-shadow: 2px 2px 2px black;
-  color: #ffffe6; }
-
-.subtitulo-pagina {
-  text-align: center;
-  font-family: "Poiret One", cursive;
-  font-size: 1.7rem;
-  color: #edf6f8; }
-
-#skill-list {
-  display: grid;
-  margin-left: 10%;
-  grid-template-columns: 30% 30% 30%; }
-  #skill-list img {
-    width: 8rem;
-    height: 8rem; }
-  #skill-list #cssArr, #skill-list #jsArr, #skill-list #dbArr {
-    list-style-type: none;
-    justify-self: center;
-    font-size: 1.2rem;
-    line-height: 2.5rem; }
-
-#contatos {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  list-style-type: none;
-  font-size: 1rem; }
-
-@media only screen and (max-width: 800px) {
-  #skill-list {
-    display: flex;
-    flex-direction: column; }
-  #contatos {
-    flex-direction: column; } }
-
-.meu-titulo {
-  text-align: center;
-  font-family: "Poiret One", cursive;
-  font-size: 1.5rem;
-  color: #ffffe6;
-  text-transform: uppercase; }
-  .meu-titulo hr {
-    width: 40%; }
-  .meu-titulo h6 {
-    margin: 0;
-    font-size: 1.5rem;
-    text-transform: capitalize; }
-
-.sobre-mim {
-  display: flex;
-  flex-direction: column;
-  align-items: center; }
-  .sobre-mim img {
-    margin-top: 1rem;
-    border-radius: 50%;
-    width: 11rem;
-    height: 11rem;
-    box-shadow: 2px 0px 5px black; }
-  .sobre-mim p {
-    max-width: 70%;
-    font-size: 1rem;
-    color: #080808;
-    line-height: 2rem;
-    text-align: left;
-    padding: 1rem 1rem; }
-
-@media only screen and (max-width: 800px) {
-  .sobre-mim img {
-    max-width: 25rem; }
-  .sobre-mim p {
-    width: 100%;
-    color: #bfbfbf; }
-    .sobre-mim p strong {
-      color: #85adad; } }
-
-.codepen-list {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 1rem;
-  text-align: center; }
-
-.codepen-list-projects img {
-  width: 18rem;
-  height: 11rem;
-  box-shadow: 6px 8px 5px #333333; }
-
-@media only screen and (max-width: 1023px) {
-  .codepen-list img {
-    max-width: 100%; } }
-
-@media only screen and (max-width: 800px) {
-  .codepen-list {
-    display: flex;
-    flex-direction: column; }
-  .codepen-list-projects img {
-    max-width: 20rem; } }
+    margin: -5px 0; } }
 
 .timeline {
   display: flex;
@@ -227,6 +189,45 @@ body {
     .timeline-item a,
     .timeline-item:nth-child(odd) a {
       text-decoration: underline; } }
+
+.meu-titulo {
+  text-align: center;
+  font-family: "Poiret One", cursive;
+  font-size: 1.5rem;
+  color: #ffffe6;
+  text-transform: uppercase; }
+  .meu-titulo hr {
+    width: 40%; }
+  .meu-titulo h6 {
+    margin: 0;
+    font-size: 1.5rem;
+    text-transform: capitalize; }
+
+.sobre-mim {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .sobre-mim img {
+    margin-top: 1rem;
+    border-radius: 50%;
+    width: 11rem;
+    height: 11rem;
+    box-shadow: 2px 0px 5px black; }
+  .sobre-mim p {
+    max-width: 70%;
+    font-size: 1rem;
+    color: #bfbfbf;
+    line-height: 2rem;
+    text-align: left;
+    padding: 1rem 1rem; }
+    .sobre-mim p strong {
+      color: #85adad; }
+
+@media only screen and (max-width: 800px) {
+  .sobre-mim img {
+    max-width: 25rem; }
+  .sobre-mim p {
+    width: 100%; } }
 
 
 /*# sourceMappingURL=styles.chunk.css.map*/
